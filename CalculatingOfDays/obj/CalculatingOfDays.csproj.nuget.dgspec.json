@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MIRO\\source\\repos\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj": {}
+    "C:\\Users\\MIRO\\Desktop\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MIRO\\source\\repos\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj": {
+    "C:\\Users\\MIRO\\Desktop\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MIRO\\source\\repos\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj",
+        "projectUniqueName": "C:\\Users\\MIRO\\Desktop\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj",
         "projectName": "CalculatingOfDays",
-        "projectPath": "C:\\Users\\MIRO\\source\\repos\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj",
+        "projectPath": "C:\\Users\\MIRO\\Desktop\\CalculatingOfDays\\CalculatingOfDays\\CalculatingOfDays.csproj",
         "packagesPath": "C:\\Users\\MIRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MIRO\\source\\repos\\CalculatingOfDays\\CalculatingOfDays\\obj\\",
+        "outputPath": "C:\\Users\\MIRO\\Desktop\\CalculatingOfDays\\CalculatingOfDays\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
