@@ -10,7 +10,7 @@ namespace CalculatingOfDays
         private List<Employee> employees = new List<Employee>();
 
         // A constructor that loads the list from the text file.
-        public CalculateDays(string filepath) 
+        public CalculateDays(string filepath)
         {
             string[] text = System.IO.File.ReadAllLines(filepath);
             foreach (var line in text)
@@ -32,7 +32,7 @@ namespace CalculatingOfDays
         }
 
         // Calculates the biggest timespan of two employees working on a same project.
-        public void CalculateTimeSpan() 
+        public void CalculateTimeSpan()
         {
             int timespan = 0;
             var WorkedTogether = new List<ProjectWork>();
@@ -50,18 +50,26 @@ namespace CalculatingOfDays
             }
 
             // Creating a new list and set values of the properties and grouping using LINQ. 
-            var result = WorkedTogether.GroupBy(x => new { x.EmployeeID1, x.EmployeeID2, x.TotalDays, x.ProjectID })
-                                       .Select(w => new ProjectWork()
-                                       {
-                                           EmployeeID1 = w.Key.EmployeeID1,
-                                           EmployeeID2 = w.Key.EmployeeID2,
-                                           TotalDays = w.Sum(d => d.TotalDays),
-                                           ProjectID = w.Key.ProjectID
-                                       }
-                                       ).OrderByDescending(w => w.TotalDays).ToList().First();
+            var results = WorkedTogether.Where(a => a.TotalDays == WorkedTogether.Max(z => z.TotalDays)).Select(x => new ProjectWork()
+            {
+                EmployeeID1 = x.EmployeeID1,
+                EmployeeID2 = x.EmployeeID2,
+                ProjectID = x.ProjectID,
+                TotalDays = x.TotalDays
+            }).ToList();
+
+            var projectWork = new ResultProject();
+            projectWork.EmployeeID1 = results.Select(x => x.EmployeeID1).First();
+            projectWork.EmployeeID2 = results.Select(x => x.EmployeeID2).First();
+
+            foreach (var result in results)
+            {
+                projectWork.ProjectIDS.Add(result.ProjectID);
+                projectWork.TotalDays += result.TotalDays;
+            }
 
             Console.Write("\nEmployees who worked together:");
-            Console.WriteLine("\nEmployee ID 1:" + result.EmployeeID1 + "\nEmployee ID 2:" + result.EmployeeID2 + "\nTotal days together:" + result.TotalDays + "\nProject ID:" + result.ProjectID);
+            Console.WriteLine("\nEmployee ID 1:" + projectWork.EmployeeID1 + "\nEmployee ID 2:" + projectWork.EmployeeID2 + "\nTotal days together:" + projectWork.TotalDays + "\nProject ID:" + string.Join(',', projectWork.ProjectIDS.Select(x => projectWork.ProjectIDS).First()));
             Console.ReadLine();
         }
 

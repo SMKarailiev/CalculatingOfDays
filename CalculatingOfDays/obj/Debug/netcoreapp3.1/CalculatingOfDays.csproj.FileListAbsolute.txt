@@ -11,3 +11,16 @@ C:\Users\MIRO\source\repos\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcore
 C:\Users\MIRO\source\repos\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.pdb
 C:\Users\MIRO\source\repos\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.genruntimeconfig.cache
 C:\Users\MIRO\source\repos\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.csprojAssemblyReference.cache
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.csprojAssemblyReference.cache
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.AssemblyInfoInputs.cache
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.AssemblyInfo.cs
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.csproj.CoreCompileInputs.cache
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.dll
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.pdb
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\bin\Debug\netcoreapp3.1\CalculatingOfDays.exe
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\bin\Debug\netcoreapp3.1\CalculatingOfDays.deps.json
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\bin\Debug\netcoreapp3.1\CalculatingOfDays.runtimeconfig.json
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\bin\Debug\netcoreapp3.1\CalculatingOfDays.runtimeconfig.dev.json
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\bin\Debug\netcoreapp3.1\CalculatingOfDays.dll
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\bin\Debug\netcoreapp3.1\CalculatingOfDays.pdb
+C:\Users\MIRO\Desktop\CalculatingOfDays\CalculatingOfDays\obj\Debug\netcoreapp3.1\CalculatingOfDays.genruntimeconfig.cache
